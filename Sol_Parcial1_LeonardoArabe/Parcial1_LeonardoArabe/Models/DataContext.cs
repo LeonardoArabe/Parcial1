@@ -12,5 +12,7 @@ namespace Parcial1_LeonardoArabe.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Parcial1_LeonardoArabe.Models.Product> Products { get; set; }
     }
 }
