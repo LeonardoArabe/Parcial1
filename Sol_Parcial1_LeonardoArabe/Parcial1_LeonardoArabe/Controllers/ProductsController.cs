@@ -12,7 +12,7 @@ using Parcial1_LeonardoArabe.Models;
 
 namespace Parcial1_LeonardoArabe.Controllers
 {
-    public class ProductsController : ApiController
+    public class ProductsController : System.Web.Http.ApiController
     {
         private DataContext db = new DataContext();
 
